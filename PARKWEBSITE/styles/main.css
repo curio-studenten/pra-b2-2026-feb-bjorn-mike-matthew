@@ -211,6 +211,10 @@ footer{
   .hidden-on-sm{
     display: none;
   }
+  .payment-option img{
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* 
