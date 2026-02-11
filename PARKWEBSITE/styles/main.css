@@ -177,7 +177,16 @@ footer{
   background: #303030;
   color: #ffffff;
 }
-
+.emphasize{
+  padding: 1em;
+  border-left: 5px solid #27AE60;
+  box-shadow: 1px 0 5px #27AE60;
+}
+.emphasize h2{
+  margin: 0 auto;
+  text-align: center;
+  border-left: none;
+}
 .copyright{
   text-align: center;
 }
