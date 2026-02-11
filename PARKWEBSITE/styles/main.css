@@ -339,3 +339,28 @@ to   { opacity: 1; }
     position: relative;
     left: 0;
 }
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+.custom-table tr:first-child th, 
+.custom-table tr:first-child td {
+  border-bottom: 2px solid black;
+  padding: 0;
+  border-spacing: 0;
+}
+
+.custom-table tr:nth-child(5) td,
+.custom-table tr:nth-child(5) th {
+  border-top: 2px solid black;
+  padding: 0;
+  border-spacing: 0;
+}
+
+.custom-table th, .custom-table td {
+  padding: 0;
+  text-align: left;
+  border-spacing: 0;
+}
