@@ -214,6 +214,24 @@ footer{
     width: 100%;
     height: auto;
   }
+  .infoContainer .row{
+    display: block;
+  }
+  .infoContainer .row article{
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+  .row article{
+    width: 100%;
+    flex: none;
+    box-sizing: border-box;
+  }
 }
 
 /* 
