@@ -8,11 +8,9 @@
     * Primaire kleur: #27AE60
     * Secundaire kleur: #2F80ED
 */
-
 body, html{
   margin: 0;
   padding: 0;
-
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #FCFCFC;
 }
